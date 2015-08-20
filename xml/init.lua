@@ -13,6 +13,7 @@ local ipairs, pairs, insert, type,
       string.match, tostring
 
 local parser  = require 'xml.Parser'
+parser = parser.new()
 
 -- Current version respecting [semantic versioning](http://semver.org).
 lib.VERSION = '1.1.2'
